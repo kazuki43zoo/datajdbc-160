@@ -4,16 +4,16 @@ import org.springframework.data.annotation.Id;
 
 public class Todo {
 	@Id
-	private Integer id;
+	private int id;
 	private String title;
 	private String details;
 	private boolean finished;
 
-	public Integer getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

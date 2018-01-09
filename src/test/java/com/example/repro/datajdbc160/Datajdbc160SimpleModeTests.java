@@ -32,7 +32,7 @@ public class Datajdbc160SimpleModeTests {
 
 		Todo savedTodo = todoService.save(todo);
 
-		Assertions.assertThat(savedTodo.getId()).isNotNull();
+		Assertions.assertThat(savedTodo.getId()).isNotEqualTo(0);
 	}
 
 	@EnableJdbcRepositories
