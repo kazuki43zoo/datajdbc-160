@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  * auto-generated key feature works fine on mybatis simple mode.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = {Datajdbc160Application.class, Datajdbc160BatchModeTests.SpringDataJdbcConfig.class},
+@SpringBootTest(classes = {Datajdbc160Application.class, Datajdbc160SimpleModeTests.SpringDataJdbcConfig.class},
 		properties = "mybatis.configuration.default-executor-type=simple")
 public class Datajdbc160SimpleModeTests {
 
